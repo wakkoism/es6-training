@@ -5,5 +5,6 @@ const sayHello = (name = 'world') => {
 const greetUser = (user = {name: 'Anonymous'}) => {
   console.log(`Hello ${user.name}!`);
 }
-sayHello('John');
+
 greetUser();
+sayHello('Victor');
